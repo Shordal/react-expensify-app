@@ -28,7 +28,7 @@ const jsx = (
     <Provider store={store}>
         <AppRouter />
     </Provider>
-    );
+);
 
 let hasRendered = false;
 const renderApp = () => {
@@ -37,7 +37,7 @@ const renderApp = () => {
         hasRendered = true;
     }
 };
-    
+
 ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
 firebase.auth().onAuthStateChanged((user) => {

@@ -1,3 +1,6 @@
+.list-body {
+    border-top: outset;
+}
 .list-header {
     background: $off-white;
     border: 1px solid darken($off-white, 7%);
@@ -5,9 +8,7 @@
     display: flex;
     justify-content: space-between;
     padding: $s-size $m-size;
-}
 
-.list-header {
     margin-bottom: $m-size;
     @media (min-width: $desktop-breakpoint) {
         margin-bottom: $l-size;

@@ -12,7 +12,7 @@ export const LoginPage = ({ startLogin }) => (
                     Lets get that spending, under control!
                 </p>
             </h1>
-            <button className="button" onClick={startLogin}> 
+            <button className="button" onClick={startLogin}>
                 Login with Google
             </button>
         </div>
