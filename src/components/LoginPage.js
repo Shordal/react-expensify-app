@@ -4,12 +4,18 @@ import { startLogin } from '../actions/auth';
 
 // stateless functional component
 export const LoginPage = ({ startLogin }) => (
-    <div>
-        <button
-            onClick={startLogin}
-        > 
-            Login
-        </button>
+    <div className="box-layout">
+        <div className="box-layout__box">
+            <h1 className="box-layout__title">
+                Expensify
+                <p className="box-layout__subText">
+                    Lets get that spending, under control!
+                </p>
+            </h1>
+            <button className="button" onClick={startLogin}> 
+                Login with Google
+            </button>
+        </div>
     </div>
 );
 
